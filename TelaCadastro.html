@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formulário </title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-image: url(agua2.jpg);
+            background-color: #f2f2f2;
+            background-size: cover;
+            background-size: center;
+        }
+        
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            
+        }
+        form {
+            width: 320px;
+            padding: 30px;
+            border: 1px solid #61a6ab;
+            border-radius: 8px;
+            background-color: #61a6ab;
+            box-shadow: 0px 0px 10px    rgba(0, 0, 0, 0.1);
+            
+        }
+        label{
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        input[type = "text"],
+        input[type = "number"],
+        input[type = "email"],
+        input[type = "password"],
+        
+        select{
+            width: calc(100% - 12px);
+            padding: 8px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            box-sizing: border-box;
+            background-color: #a5c8ca;
+        }
+
+        input[type = "submit"] {
+            background-color: #0f38eb;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 12px 24px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin: 0 auto;
+            display: block;
+            width: 100%;
+        }
+        input[type = "submit"]:hover {
+            background-color: #0f38eb;
+        }
+
+
+    </style>
+</head>
+
+<body class="container">
+    <form>  
+        </div>
+        <label for = "fname"> Nome completo: </label> <br>
+        <input type = "text" id = "fname" name = "fname" required> <br>
+
+        <label for = "age"> Idade: </labe> <br>
+        <input type = "number" id = "age" name = "age" min = "18" max = "120" inputmode = "numeric" required> <br> 
+
+        <label for = "email"> E-mail: </label> <br>
+        <input type = "email" id = "email" name = "email" required> <br>
+
+        <label for = "conteudo"> Principal interesse: </label> <br>
+
+        <select id = "conteudo" name = "conteudo">    
+            <option value = "ecossistemas"> Ecossistemas aquáticos </option>
+            <option value = "fauna"> Fauna aquática</option>
+            <option value = "flora"> Flora aquática </option>
+        </select> <br>
+
+
+        <label for = "password"> Senha: </label> <br>
+        <input type = "password" id = "password" name = "password" required> <br>
+
+        <br>
+
+        <input type = "submit" value = "Enviar"> 
+    </form>
+   
+</body>
+
+</html>

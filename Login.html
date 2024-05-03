@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    
+
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            
+            background-image: url(agua.jpg);
+            background-size: cover;
+            background-position: center;    
+        }
+
+        .container {
+            width: 400px;
+            height: auto;
+            background: #05a1ad;
+            backdrop-filter: blur(50px);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px    rgba(255, 255, 255, 0.5);
+            text-align: center;
+
+        }
+
+        label {
+            font-weight: bold;
+            margin-bottom: 5px;
+            text-align: left;
+        }
+
+        label{
+            display: block;
+            text-align: center;
+            text-align: left;
+        }
+
+        input[type="email"],
+        input[type="password"] {
+            width: calc(100% - 40px);
+            padding: 15px;
+            margin: 5px;
+            display: block;
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            border-radius: 5px;
+            box-sizing: border-box;
+            background-color: #abe4ff;
+        }
+
+        input[type="submit"] {
+            width: calc(50% - 50px);
+            padding: 15px;
+            margin: 0 auto;
+            display: block;
+            background-color: #0f38eb;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s  ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0f38eb;
+        }   
+
+    </style>
+      
+
+</head>
+<body>
+
+    <div class = "container"> 
+
+    
+    <!--Campo E-mail-->
+        <label for = "email"> E-mail: </label> <br>
+        <input type = "email" id = "email" name = "email"  placeholder = "Insira um E-mail válido" required> <br>
+
+        <!--Campo Senha-->
+        <label for = "password"> Senha: </label> <br>
+        <input type = "password" id = "password" name = "password" required> <br>
+
+        <!--Botão Enviar-->
+        <input type = "submit" value = "Enviar">
+        
+
+        <ul>
+            <div style="text-align: center;">
+                <a href="">Tela de Cadastro</a>
+            </div>
+            
+        </ul>    
+
+    </div>
+</body>
+</html>
+
+
+
+
