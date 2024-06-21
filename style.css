@@ -1,0 +1,44 @@
+/* Estilos CSS podem ser adicionados aqui ou em um arquivo externo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #0c0b0b;
+}
+section{
+    padding: 20px;
+}
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+main {
+    background-color: #d0ecea; padding-bottom: 120px;
+}
+
+#admin-button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #2733db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#admin-button:hover {
+    background-color: #2733db;
+}

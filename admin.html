@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    
+    <link rel = "stylesheet" href = "admin1.css">
+
+      
+
+</head>
+<body>
+
+    <div class = "container"> 
+
+    
+    <!--Campo E-mail-->
+    <form id = "dataForm"> 
+        <label for = "email"> E-mail: </label> <br>
+        <input type = "email" id = "email" name = "email"  placeholder = "Insira um E-mail válido" required> <br>
+
+        <!--Campo Nome-->
+        <label for = "name"> Nome: </label> <br>
+        <input type = "name" id = "name" name = "name" required> <br>
+
+        <!--Botão Enviar-->
+        <input type = "submit" value = "Enviar">
+        
+
+        <!-- Campo de Pesquisa -->
+        <label for="searchInput">Pesquisar:</label>
+        <input type="text" id="searchInput" placeholder="Digite para pesquisar">
+
+    </form>    
+
+
+
+        <!-- Lista pra exibir os dados-->
+        <ul id = "dataList"> </ul> 
+
+        <input type="button" value="Limpar" id="clearButton">
+
+    </div>
+
+    <script src = "script.js"> </script>
+</body>
+</html>
